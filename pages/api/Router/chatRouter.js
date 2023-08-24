@@ -2,7 +2,7 @@ const express = require("express");
 const {
   getFirstTime,
   getSecondTimeAbove
-} = require("../Controller/chatController");
+} = require("../pages/api/Controller/chatController");
 
 const router = express.Router();
 
